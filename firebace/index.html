@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A modern world requires new rules and you just can't be a successful UI/UX without a personal portfolio website so I have my website :)">
+    <meta name="Ankur Thakur" content="Hi i am Ankur Thakur UI/UX Developer and designer">
+    <title>Contact - ANKUR THAKUR</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="../images/ico/logo.ico">
+  <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'UA-126293531-1');
+    </script>
+    <script>document.onkeydown = function(e) {
+            if(event.keyCode == 123) {
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+            }
+            if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
+            return false;
+            }
+            }</script>
+</head>
+<body oncontextmenu="return false;">
+  <div class="container">
+    <h1 class="brand"><a href="../index.html"><img src="../images/logo.png" width="80" alt="logo"></a></h1>
+    <div class="wrapper">
+      <div class="company-info">
+        <h3>Write A Message to me</h3>
+        <ul>
+          <li><i class="fa fa-phone"></i> +91-8217750946</li>
+          <li><i class="fa fa-envelope"></i> ankurk.thakur@gmail.com</li>
+          <li ><a href="../index.html"id="foo" class="btn btn-primary">Back To Home</a></li>
+
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Messege me</h3>
+        <div class="alert">Your message has been sent</div>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Company</label>
+            <input type="text" name="company" id="company" required>
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+          <p>
+            <label>Phone Number</label>
+            <input type="number" name="phone" id="phone" maxlength="10" required>
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"required></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Send Message</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
